@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu  xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:title="PROYECTO">
+            <menu>
+                <item
+                    android:id="@+id/nuevo"
+                    android:icon="@drawable/proy_menu"
+                    android:title="Nuevo " />
+                <item
+                    android:id="@+id/requisito"
+                    android:icon="@drawable/ic_menu_gallery"
+                    android:title="Requisitos" />
+                <item
+                    android:id="@+id/problemas"
+                    android:icon="@drawable/ic_menu_slideshow"
+                    android:title="Problemas" />
+                <item
+                    android:id="@+id/objetivos"
+                    android:icon="@drawable/ic_menu_manage"
+                    android:title="Objetivos" />
+            </menu>
+        </item>
+        <item android:title="PERSONAL">
+            <menu>
+                <item
+                    android:icon="@drawable/proy_menu"
+                    android:title="Jefe" />
+                <item
+                    android:icon="@drawable/ic_menu_gallery"
+                    android:title="Colaboradores" />
+
+            </menu>
+        </item>
+        <item android:title="SEGUIMIENTO">
+            <menu>
+                <item
+                    android:icon="@drawable/proy_menu"
+                    android:title="Reuniones" />
+                <item
+                    android:icon="@drawable/ic_menu_gallery"
+                    android:title="Cambios" />
+                <item
+                    android:icon="@drawable/ic_menu_slideshow"
+                    android:title="Interesados" />
+                <item
+                    android:icon="@drawable/ic_menu_manage"
+                    android:title="Riesgos" />
+                <item
+                    android:icon="@drawable/proy_menu"
+                    android:title="Soluciones" />
+            </menu>
+        </item>
+        <item android:title="CRONOGRAMA">
+            <menu>
+                <item
+                    android:icon="@drawable/proy_menu"
+                    android:title="Actividades" />
+                <item
+                    android:icon="@drawable/ic_menu_gallery"
+                    android:title="Control de Calidad" />
+
+            </menu>
+        </item>
+
+    </group>
+
+    <item android:title="AJUSTES ">
+        <menu>
+            <item
+                android:id="@+id/modificar_admin"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Modificar Datos Personales" />
+            <item
+                android:id="@+id/modificar_contra"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Cambiar Contraseña" />
+            <item
+                android:id="@+id/cerrar_sesion"
+                android:icon="@drawable/ic_menu_send"
+                android:title="CERRAR SESION" />
+        </menu>
+</item>
+
+</menu>

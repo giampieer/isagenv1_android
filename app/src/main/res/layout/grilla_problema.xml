@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/LBLNIVEL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/LBLPROY"
+        android:layout_toRightOf="@+id/imageView3"
+        android:paddingLeft="20dp" />
+
+    <TextView
+        android:id="@+id/LBLNUM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/imageView3"
+        android:paddingLeft="20dp" />
+
+    <TextView
+        android:id="@+id/LBLDESCRIPCION"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/LBLNIVEL"
+        android:layout_toRightOf="@+id/imageView3"
+        android:paddingLeft="20dp" />
+
+    <TextView
+        android:id="@+id/LBLPERJUDICADOS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/LBLDESCRIPCION"
+        android:layout_toRightOf="@+id/imageView3"
+        android:paddingLeft="20dp" />
+
+    <TextView
+        android:id="@+id/LBLPROY"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/LBLNUM"
+        android:layout_toRightOf="@+id/imageView3"
+        android:paddingLeft="20dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        app:srcCompat="@drawable/problema"
+        android:layout_alignParentTop="true"
+        android:layout_alignBottom="@+id/LBLPERJUDICADOS" />
+
+</RelativeLayout>

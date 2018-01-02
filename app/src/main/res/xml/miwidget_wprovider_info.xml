@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:initialLayout="@layout/miwidget_wprovider"
+    android:minWidth="286.0dp"
+    android:minHeight="146.0dp"
+    android:previewImage="@drawable/isagen_inicio"
+    android:resizeMode="horizontal|vertical"
+    android:updatePeriodMillis="3600000"
+    android:widgetCategory="home_screen"></appwidget-provider>

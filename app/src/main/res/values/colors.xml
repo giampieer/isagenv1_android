@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#01579b</color>
+    <color name="colorPrimaryDark">#054c85</color>
+    <color name="color_verde">#00796b</color>
+    <color name="color_verdeDark">#263238</color>
+    <color name="colorAccent">@color/color_verde</color>
+
+
+<!--COLORES DEL DISEÑO DE LA GUILLOTINA-->
+    <color name="guillotine_background">#01579b</color>
+    <color name="guillotine_background_dark">#054c85</color>
+    <color name="selected_item_color">#00796b</color>
+
+</resources>

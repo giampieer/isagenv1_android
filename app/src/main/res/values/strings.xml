@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Isagen</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="add_widget">Add widget</string>
+    <string name="appwidget_text">PROYECTOS</string>
+    <string name="action_settings">Settings</string>
+
+
+
+
+    <!-- LETRAS DE DISEÑO GUILLOTINA -->
+    <string name="profile">PROFILE</string>
+    <string name="feed">FEED</string>
+    <string name="activity">ACTIVITY</string>
+    <string name="settings">SETTINGS</string>
+</resources>
